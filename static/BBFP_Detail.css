@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HSSaemaul-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSSaemaul-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header{
+    width: 100%;
+    top: 0px;
+    background-color: white;
+}
+
+.title{
+    text-align: center;
+    font-family: 'RixYeoljeongdo_Regular';
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 40px;
+}
+
+.main{
+    
+    justify-content: center;
+}
+
+.arenaname{
+    text-align: center;
+    font-family: 'HSSaemaul-Regular';
+    font-size: 50px;
+    margin: 50px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+
+}

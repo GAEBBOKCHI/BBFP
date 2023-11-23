@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HSSaemaul-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSSaemaul-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title{
+    text-align: center;
+    font-family: 'RixYeoljeongdo_Regular';
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 100px;
+}
+
+.main{
+    display: flex;
+    justify-content:center;
+    }
+
+.loginbox{
+    width: 500px;
+    height: 300px;
+    outline: 2px solid rgb(64, 64, 200);
+    border-radius: 50px;
+    
+
+    align-items: center;
+    display: flex;
+    justify-content: center;  
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }

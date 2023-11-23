@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>Layout</title>
+    <style>
+        #header{
+            height: 100px;
+        }
+        #info{
+            background-color: lightgray;
+            width: 200px;
+            text-align: left;
+            float: left;
+            padding: 10px;
+        }
+        #list{
+            background-color: lightgray;
+        }
+        table{ border-collapse : collapse; }
+        th,td{
+            width:100px;
+            height:30px;
+            text-align: left;
+            border:1px solid #000;
+       
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>내 정보</h2>
+    </header>
+    <div class="info">
+        <p><b>회원번호</b>: </p>
+        <p><b>이름</b>: </p>
+        <p><b>전화번호</b>: </p>
+    </div>
+    <div class="list">
+        <h2>내 예약 정보</h2>
+        <table>
+            <tr>
+                <th scope="col">게임코드</th>
+                <th scope="col">날짜</th>
+                <th scope="col">경기장</th>
+                <th scope="col">시간</th>
+                <th scope="col">상세</th>
+            </tr>
+            <tr>
+                <td>0000001</td>
+                <td>11/15</td>
+                <td>AAAA</td>
+                <td>1:30-3:30</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
