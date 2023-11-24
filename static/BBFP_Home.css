@@ -107,3 +107,8 @@
     line-height: 0px;
     background-color: rgb(255, 255, 0);
 }
+
+a:link{
+    text-decoration-line: none;
+    color: black;
+  }
